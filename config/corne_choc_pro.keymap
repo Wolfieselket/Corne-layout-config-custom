@@ -62,9 +62,9 @@
             //                    | GUI |     | SPC |               | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL         &kp AT           &kp HASH  &kp DLLR  &kp PRCNT  &kp LCTRL  &kp RCTRL  &kp AMPS    &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp BSPC
+&kp TAB    &kp F1           &kp AT           &kp HASH  &kp DLLR  &kp PRCNT  &kp LCTRL  &kp RCTRL  &kp AMPS    &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp BSPC
 &kp LCTRL  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &trans    &trans    &trans     &kp LALT   &kp RALT   &kp DOLLAR  &kp PERCENT        &kp CARET             &kp COLON              &kp AT     &kp GRAVE
-&kp LSHFT  &trans           &trans           &trans    &trans    &trans                           &kp EXCL    &kp DOUBLE_QUOTES  &kp POUND             &kp RBRC               &kp PIPE   &kp TILDE
+&kp LSHFT  &kp F1           &kp F2           &trans    &trans    &trans                           &kp EXCL    &kp DOUBLE_QUOTES  &kp POUND             &kp RBRC               &kp PIPE   &kp TILDE
                                              &kp LGUI  &trans    &kp SPACE                        &kp RET     &trans             &kp RALT
             >;
         };
