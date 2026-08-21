@@ -46,10 +46,10 @@
             //                    | GUI |     | SPC   |        | ENT   |     | ALT |
 
             bindings = <
-&kp TAB    &kp MINUS      &kp EQUAL   &kp NON_US_BACKSLASH  &kp PRINTSCREEN  &kp HOME     &kp LCTRL  &kp RCTRL  &kp N7        &kp N8        &kp N9        &kp N0      &kp EQUAL     &kp BSPC
-&kp LCTRL  &kp SEMICOLON  &kp SQT     &kp HASH              &kp DEL          &kp END      &kp LALT   &kp RALT   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD  &kp UP_ARROW  &kp AT_SIGN
-&kp LSHFT  &kp COMMA      &kp PERIOD  &kp SLASH             &kp PAGE_DOWN    &kp PAGE_UP                        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT    &kp DOWN      &kp RIGHT
-                                      &kp LGUI              &trans           &kp SPACE                          &kp RET       &trans        &kp LEFT_ALT
+&kp TAB    &kp MINUS  &kp EQUAL  &kp NON_US_BACKSLASH  &kp PRINTSCREEN  &kp HOME     &kp LCTRL  &kp RCTRL  &kp N7        &kp N8        &kp N9        &kp N0      &kp EQUAL     &kp BSPC
+&kp LCTRL  &none      &none      &kp HASH              &kp DEL          &kp END      &kp LALT   &kp RALT   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD  &kp UP_ARROW  &kp AT_SIGN
+&kp LSHFT  &none      &none      &none                 &kp PAGE_DOWN    &kp PAGE_UP                        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT    &kp DOWN      &kp RIGHT
+                                 &kp LGUI              &trans           &kp SPACE                          &kp RET       &trans        &kp LEFT_ALT
             >;
         };
 
