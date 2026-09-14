@@ -76,7 +76,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_UP  &msc SCRL_DOWN  &trans     &none   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK     &mkp RCLK       &mkp MCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans        &trans          &trans     &mo 3   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans        &trans          &trans     &none   &trans  &trans
                         &trans  &trans  &trans                  &trans        &trans          &trans
             >;
         };
@@ -135,8 +135,8 @@
             display-name = "Mouse";
             bindings = <
 &kp TAB           &kp Q  &kp W  &kp E     &kp R  &kp T      &kp C_MUTE  &kp C_PP  &msc SCRL_UP  &msc SCRL_DOWN  &mkp MB4   &mkp MB5  &kp P     &kp BSPC
-&kp LEFT_SHIFT    &kp A  &kp S  &kp D     &kp F  &kp G      &kp LALT    &kp RALT  &mkp LCLK     &mkp RCLK       &mkp MCLK  &kp L     &kp SEMI  &kp SQT
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp C     &kp V  &kp B                            &kp N         &kp M           &kp COMMA  &mo 3     &kp FSLH  &kp ESCAPE
+&kp LEFT_SHIFT    &kp A  &kp S  &kp D     &kp F  &kp G      &kp LALT    &kp RALT  &mkp MB1      &mkp MB2        &mkp MB3   &kp L     &kp SEMI  &kp SQT
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C     &kp V  &kp B                            &kp N         &kp M           &kp COMMA  &none     &kp FSLH  &kp ESCAPE
                                 &kp LGUI  &mo 1  &kp SPACE                        &kp RET       &mo 2           &kp LALT
             >;
 
